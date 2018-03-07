@@ -10,5 +10,4 @@ public class LoginPage extends GenericMethods{
 			LogGenerator.reportStep("Fail", "This is not login page");
 		}
 	}
-System.out.println();
 }
