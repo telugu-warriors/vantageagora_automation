@@ -9,6 +9,7 @@ public class LoginPage extends GenericMethods{
 		if(!verifyTitle(prop.getProperty("loginPage.title"))){
 			LogGenerator.reportStep("Fail", "This is not login page");
 			System.out.println("Test Changes");
+
 		}
 	}
 }
