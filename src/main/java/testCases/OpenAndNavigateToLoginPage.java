@@ -15,10 +15,12 @@ import wrapperClass.TestBase;
  */
 public class OpenAndNavigateToLoginPage extends TestBase {
 	@Test
-	public void loginPageTest() throws InterruptedException, Exception{
+	public void HomePageTest() throws InterruptedException, Exception{
 		new HomePage()
-		.hoverOnOXizon()
-		.clicLogIn()
+	    .clicInputForms()
+	    .clicSimpleForm()
+		//.hoverOnOXizon()
+		//.clicLogIn()
 		.closeBrowser();
 	}
 	

@@ -18,9 +18,13 @@ public class HomePage extends GenericMethods{
 		return this;
 	}
 	
-	public LoginPage clicLogIn() throws IOException{
-		clickByxpath(prop.getProperty("login.icon.id"));
-		return new LoginPage();
+	public HomePage clicInputForms() throws IOException{
+		clickByxpath(prop.getProperty("clicInputForms.xpath"));
+		return this;
 	}
 
+	public HomePage clicSimpleForm() throws IOException{
+		clickByLinktext(prop.getProperty("clickby.linktext"));
+		return this;
+	}
 }
